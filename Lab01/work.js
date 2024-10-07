@@ -1,0 +1,1 @@
+/*functionality for changing target _blank to same */
