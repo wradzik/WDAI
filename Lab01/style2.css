@@ -1,0 +1,16 @@
+table, th, tr, td{
+    border: 1px solid antiquewhite;
+    border-collapse: collapse;
+}
+table{
+    margin: auto;
+    margin-top: 20vh;
+}
+td{
+    padding: 1vh 1vw;
+}
+
+body{
+    background-color: #16161D;
+    color: antiquewhite
+}
