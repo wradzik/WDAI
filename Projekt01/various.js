@@ -1,20 +1,22 @@
 
 window.onload = function(){
+    let col = decodeURIComponent(document.cookie).split(';')[0];
+    console.log(col)
     document.addEventListener("keydown", (event) => {
     if (event.keyCode === 82) {
         window.location.href = "index.html";
     }
-});
+}); 
     document.addEventListener("keydown", (event) => {
     if (event.keyCode === 66) {
+        document.cookie = "color=blue; expires=Thu, 5 March 2030 12:00:00 UTC";
         document.getElementById("bod").className = "blu";
-        console.log("is blu");  
     }
 });
     document.addEventListener("keydown", (event) => {
     if (event.keyCode === 80) {
         document.getElementById("bod").className = "pik";
-        console.log("is pink");
+        document.cookie = "color=pink; expires=Thu, 5 March 2030 12:00:00 UTC";
     }
 });
     var obj;

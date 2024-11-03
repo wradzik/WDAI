@@ -96,7 +96,7 @@
   }
 }
 
-input[type=submit] {
+.pik input[type=submit] {
   background-color: var(--pink-300);
   color: white;
   padding: 12px 20px;
@@ -104,8 +104,11 @@ input[type=submit] {
   border-radius: 10px;
   cursor: pointer;
 }
+input[type=submit]:hover {
+  background-color: var(--pink-200);
+}
 
-input[type=text], select, textarea {
+.pik input[type=text], select, textarea, input[type=email] {
   width: 100%;
   padding: 12px;
   border: 1px solid #ccc;
