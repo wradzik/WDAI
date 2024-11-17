@@ -1,0 +1,32 @@
+body{
+    text-align: center;
+    background-color: #aaa;
+}
+
+.colorful_square{
+    width: 100px;
+    height: 100px;
+    display: inline-block;
+    margin: 15vh 10vw 15vh 10vw ;
+}
+
+.green{
+    background-color: #0F9D58;
+}
+
+.red{
+    background-color: #DB4437;
+}
+
+.yellow{
+    background-color: #F4B400;
+}
+
+.blue{
+    background-color: #4285F4;
+}
+
+.image1{
+    background-image: url(image1.jpg);
+    border: 1px solid black; /*obraz ma białe tło, więc daję ramkę dla widoczności że ma właściwe wymiary*/
+}

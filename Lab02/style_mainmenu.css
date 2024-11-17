@@ -1,0 +1,40 @@
+body{
+    background-color: #172220;
+}
+
+.titel{
+    text-align: center;
+    margin-top: 20vh;
+}
+
+.link_holder{
+    text-align: center;
+}
+
+a{
+    display: inline-block;
+    margin: 15vh 5vw;
+    border: 2px solid antiquewhite;
+    padding: 2vh 2vw;
+    border-radius: 15px;
+
+    text-decoration: none;
+    font-size: 2em;
+}
+
+#redlink{
+    color: salmon;
+}
+
+#greenlink{
+    color:forestgreen;
+}
+
+#bluelink{
+    color: aqua;
+}
+
+#exercise_header{
+    color: antiquewhite;
+    font-size: 5em;
+}

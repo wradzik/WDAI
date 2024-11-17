@@ -1,0 +1,53 @@
+body{
+    background-color: lightblue;
+}
+.container{
+    width: 100%;
+    text-align: center;
+}
+#textwrapper{
+    padding-top: 20vh;
+    font-size: 10rem;
+}
+button {
+    background-color: #04AA6D; /* Green */
+    border: none;
+    color: white;
+    padding: 32px 64px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 10vh 2.5vw;
+    transition-duration: 0.4s;
+    cursor: pointer;
+    border-radius: 3vh;
+}
+
+#startbutton{
+    background-color: lightblue;
+    color: black;
+    border: 2px solid green;
+}
+#startbutton:hover{
+    background-color: green;
+    color: white;
+}
+#stopbutton{
+    background-color: lightblue;
+    color: black;
+    border: 2px solid darkorange;
+}
+#stopbutton:hover{
+    background-color: darkorange;
+    color: white;
+}
+#resetbutton{
+    background-color: lightblue;
+    color: black;
+    border: 2px solid red;
+}
+#resetbutton:hover{
+    background-color: red;
+    color: white;
+}
