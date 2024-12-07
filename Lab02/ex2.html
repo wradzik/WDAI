@@ -1,6 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
-
+<html lang="pl">
 <head>
   <meta name="description" content="exercise 2" />
   <meta charset="utf-8">
@@ -8,13 +7,30 @@
   <meta name="viewport" content="width=device-width, initial-scale=1">
   <meta name="author" content="AR 419 525">
   <link rel="stylesheet" href="style2.css">
-  <script src="http://code.jquery.com/jquery-latest.min.js"></script>
   <link rel="icon" href="image1.jpg">
 </head>
-
 <body>
+    <h1>Generator Hasła</h1>
+    <form id="passwordForm">
+        <label>
+            Minimalna długość hasła:
+            <input type="text" id="minLength" value="8">
+        </label>
+        <label>
+            Maksymalna długość hasła:
+            <input type="text" id="maxLength" value="12">
+        </label>
+        <label>
+            <input type="checkbox" id="includeUppercase">
+            Czy hasło ma zawierać wielkie litery?
+        </label>
+        <label>
+            <input type="checkbox" id="includeSpecial">
+            Czy hasło ma zawierać znaki specjalne?
+        </label>
+        <button type="button" id="generatePassword">Wygeneruj hasło</button>
+    </form>
 
-    
-
+    <script src="ex2.js"></script>
 </body>
 </html>

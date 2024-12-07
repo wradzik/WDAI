@@ -10,7 +10,7 @@ function timesetter(place){
         setTimeout(function(){timesetter(place)}, 1000);
     }
     else{
-        place.innerHTML = (rn-rn%60)/60 +"min"+ (rn%60) + "s";
+        place.innerHTML = (rn-rn%60)/60 +"min "+ (rn%60) + "s";
         rn++;
         document.getElementById("textwrapper").setAttribute("data-time", rn);
         setTimeout(function(){timesetter(place)}, 1000);

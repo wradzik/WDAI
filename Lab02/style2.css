@@ -1,16 +1,24 @@
-table, th, tr, td{
-    border: 1px solid antiquewhite;
-    border-collapse: collapse;
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    line-height: 1.6;
 }
-table{
-    margin: auto;
-    margin-top: 20vh;
+label {
+    display: block;
+    margin-top: 10px;
 }
-td{
-    padding: 1vh 1vw;
+input[type="text"] {
+    width: 50px;
 }
-
-body{
-    background-color: #16161D;
-    color: antiquewhite
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+button:hover {
+    background-color: #0056b3;
 }
