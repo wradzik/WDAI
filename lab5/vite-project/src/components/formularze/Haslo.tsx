@@ -5,11 +5,11 @@ export default function Haslo(){
   const [password, setPassword] = useState<string>('');
   const [password2, setPassword2] = useState<string>('');
 
-  function handlePasswordChange(event: React.ChangeEvent<HTMLInputElement>): void {
+  function handlePasswordChange(event: React.ChangeEvent<HTMLInputElement>) {
     setPassword(event.target.value);
   }
 
-  function handlePasswordChange2(event: React.ChangeEvent<HTMLInputElement>): void {
+  function handlePasswordChange2(event: React.ChangeEvent<HTMLInputElement>) {
     setPassword2(event.target.value);
   }
   function messageOutput(){
@@ -24,13 +24,13 @@ export default function Haslo(){
     return(
         <div>
          <input
-            type="password"
+            type="text"
             value={password}
             onChange={handlePasswordChange}
             placeholder="Haslo"
-          />
+          /><br/>
           <input
-            type="password"
+            type="text"
             value={password2}
             onChange={handlePasswordChange2}
             placeholder="Powtórz haslo"

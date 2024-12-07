@@ -12,6 +12,33 @@
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
 }
+body{
+  background-color: antiquewhite;
+}
+hr{
+  width: 30vw;
+  border-top: 1px solid black;
+  margin: auto;
+  margin-top: 15vh;
+  margin-bottom: 15vh;
+}
+table, td, tr{
+  border: 1px solid black;
+  border-collapse: collapse;
+  padding: 3px;
+}
+table{
+  margin: auto;
+}
+input[type=text], input[type=password], input[type=username]{
+  width: 100%;
+  padding: 12px 20px;
+  margin: 8px 0;
+  box-sizing: border-box;
+  border: 1px solid #555;
+  outline: none;
+  border-radius: 5px;
+}
 
 a {
   font-weight: 500;
