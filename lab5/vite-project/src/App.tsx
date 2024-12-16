@@ -1,5 +1,8 @@
 //import { useState } from 'react'
 import './App.css'
+import { LicznikEfekt } from './components/efekty/LicznikEfekt.tsx'
+import Odliczanie from './components/efekty/Odliczanie.tsx'
+import Tytul from './components/efekty/Tytul.tsx'
 import Formularz from './components/formularze/Formularz.tsx'
 import Haslo from './components/formularze/Haslo.tsx'
 import Logowanie from './components/formularze/Logowanie.tsx'
@@ -28,6 +31,11 @@ function App() {
       <hr/>
       <StudentManager></StudentManager>
       <hr/>
+      <Tytul></Tytul>
+      <hr/>
+      <LicznikEfekt></LicznikEfekt>
+      <hr/>
+      <Odliczanie></Odliczanie>
 
     </>
     
